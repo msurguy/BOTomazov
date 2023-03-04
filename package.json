@@ -1,0 +1,34 @@
+{
+  "name": "mix-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "laravel-mix": "^1.6.1",
+    "webpack-livereload-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "cncjs-controller": "^1.3.0",
+    "d3": "^4.11.0",
+    "noty": "^3.1.3",
+    "p5": "^0.5.16",
+    "quicksettings": "^3.0.1",
+    "rangeslider-js": "^3.0.2",
+    "sobel": "0.0.10",
+    "socket.io-client": "^1.7.4",
+    "stackblur-canvas": "^1.4.0",
+    "underscore": "^1.8.3"
+  }
+}
